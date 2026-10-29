@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Town — Kid's Box 1</title>
+    <title>My Town — Kid's Box 3</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -321,7 +321,8 @@
 <div class="app">
     <div class="header">
         <h1>🏘️ My Town</h1>
-        <div class="sub">Kid's Box 1 • Vocabulary Practice</div>
+        <!-- ИЗМЕНЕНО ЗДЕСЬ -->
+        <div class="sub">Kid's Box 3 • Vocabulary Practice</div>
     </div>
 
     <div class="main-tabs">
@@ -366,7 +367,8 @@
         </div>
     </div>
 
-    <div class="footer-note">✧ Kid's Box 1 • My Town ✧</div>
+    <!-- ИЗМЕНЕНО ЗДЕСЬ -->
+    <div class="footer-note">✧ Kid's Box 3 • My Town ✧</div>
 </div>
 
 <script>
@@ -494,7 +496,7 @@
         // Перемешиваем карточки
         cardsData.sort(() => Math.random() - 0.5);
         
-        // Присваиваем номера от 11 до 28 (так как карточек 18: 11+17=28)
+        // Присваиваем номера от 11 до 28
         cardsData.forEach((card, index) => {
             card.displayNumber = index + 11; 
         });
